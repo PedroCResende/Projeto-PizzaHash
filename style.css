@@ -42,6 +42,11 @@ html::-webkit-scrollbar-thumb{
     border-radius: 5rem;
 }
 
+header .nav-bar.active {
+    right: 0;
+  }
+  
+
 body{
     background: var(--bg);
 }
@@ -475,10 +480,14 @@ header .icons  ion-icon:hover{
       position: absolute;
       top: 100%;
       right: -100%;
-      background: #fff;
+      background-color: var(--bg);
       width: 30rem;
       height: calc(100vh - 9.5rem);
+      
     }
+
+    
+      
   
     header .nav-bar a {
       color: var(--bg-card);
@@ -486,6 +495,7 @@ header .icons  ion-icon:hover{
       margin: 1.5rem;
       padding: 0.5rem;
       font-size: 2rem;
+      color: #fff;
     }
   
     .home {
